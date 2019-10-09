@@ -1,0 +1,55 @@
+
+.acerca-de {
+    width: 100%;
+    padding: 50px;
+    margin-top : 50px;
+}
+
+.acerca-de .left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.acerca-de .right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    text-align: justify;
+}
+.acerca-de .info {
+    width: 100%;
+    padding: 0px 30px;
+}
+
+
+.acerca-img {
+    width: 40%;
+    height: 40%;
+}
+
+.acerca-img img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.acerca-de .info h2 {
+    margin: 15px;
+    font-size: 35px;
+    color: black;
+}
+
+.acerca-de .info p {
+    font-size: 17px;
+    color: black;
+    line-height: 27px;
+    margin: 10px 0px;
+}

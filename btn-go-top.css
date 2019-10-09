@@ -1,0 +1,31 @@
+
+.btn-go-top {
+    position: fixed;
+    bottom: 0px;
+    right: -100%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    transition: 400ms;
+    z-index: 9999;
+
+}
+
+.btn-go-top > span {
+    font-size: 30px;
+    color: black;
+}
+
+.btn-go-top:hover {
+    border: 2px solid white;
+    background: red;
+}
+.btn-go-top:hover span {
+    color: white;
+}
